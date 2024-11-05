@@ -1,0 +1,12 @@
+google을 이용한 메일 보내기
+1. google에서 계정관리 - 보안 - 2단계 인증 설정하기
+
+2. 검색창 앱 비밀번호
+
+3. pom.xml에서 라이브러리 넣기
+   - javax.mail, spring-context-support, javax.mail-api
+
+4. mail-context.xml 생성   
+   /WEB-INF/spring/mail-context.xml
+   
+5. web.xml 에  mail-context.xml를 추가   
